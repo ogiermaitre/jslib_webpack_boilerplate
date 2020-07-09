@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 const test = require('ava')
-const { plop } = require('./dist/bundle')
+const { f0 } = require('./dist/bundle')
 
 test('foo', t => {
     t.pass()
@@ -12,5 +12,5 @@ test('bar', async t => {
 })
 
 test('plopFun', t => {
-    t.is(plop(), 3)
+    t.is(f0(), 3)
 })

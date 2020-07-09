@@ -1,2 +1,2 @@
-export const plop = () => 3
-export const plip = () => 4
+export const f0 = () => 3
+export const f1 = () => 4
