@@ -8,8 +8,8 @@
     "build": "cross-env NODE_ENV=production webpack",
     "test": "ava"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ogier Maitre",
+  "license": "GPL-3.0",
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-optional-chaining": "^7.10.4",
